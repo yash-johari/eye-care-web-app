@@ -1,8 +1,53 @@
-# React + Vite
+# 👁️ Eye Care Medical Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **Eye Care Medical Web App** is a full-stack medical assistant platform that helps users find the most suitable eye drops based on their symptoms (like redness, swelling, irritation, dryness, etc.). It also provides natural remedies, possible causes, and a directory of local eye specialists.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Features
+
+- ✅ Symptom-based eye drop suggestions (via search bar or checkboxes)  
+- 📄 Details about possible causes and home remedies  
+- 🛒 "Buy Now" button to purchase eye drops online  
+- 🧑‍⚕️ Eye specialist directory with clinic name and address  
+- 💡 Eye care and prevention tips for better vision  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap, EJS  
+- **Backend:** Node.js, Express.js  
+- **Database:** PostgreSQL  
+
+---
+
+## 📦 How to Clone & Run the Project
+
+### 🧾 Prerequisites:
+- Node.js and npm installed  
+- PostgreSQL installed and running  
+
+### ⚙️ Bash Commands:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/eye-care-web-app.git
+
+# Navigate into the project folder
+cd eye-care-web-app
+
+# Install backend dependencies
+npm install
+
+# Configure your PostgreSQL database:
+# - Create a database
+# - Create necessary tables (check schema.sql if available)
+# - Update credentials in database/connection.js
+
+# Run the server
+node app.js
+
+# Open in your browser
+http://localhost:3000
+```
