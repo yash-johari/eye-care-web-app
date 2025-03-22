@@ -77,20 +77,19 @@ function Home() {
                 gutterBottom
                 fontWeight="bold"
               >
-                Your Vision, Our Priority
+                See the world clearly — one drop at a time.
               </Typography>
               <Typography variant="h5" paragraph>
-                Professional eye care services and expert advice at your
-                fingertips
+                Discover the perfect care for your eyes with our smart Eye Care Web App. Whether you're facing redness, dryness, irritation, or just want expert advice, we've got you covered. Get tailored eye drop suggestions, natural remedies, and find trusted eye specialists near you — all in one place.
               </Typography>
             </Grid>
-            <Grid item xs={12} md={6}>
+            {/* <Grid item xs={12} md={6}>
               <img
                 className="hero-img"
                 src="src\assets\eye image.jpg"
                 alt="Eye care"
               />
-            </Grid>
+            </Grid> */}
           </Grid>
         </Container>
       </Box>
