@@ -1,0 +1,15 @@
+footer{
+    height: 30px;
+    padding: 10px 0;
+    margin: 2em 0 0.5em 0;
+    border-top: 1px solid rgba(117, 117, 117, 0.615) ;
+    text-align: center;
+    font-size: large;
+}
+
+.hero-img{
+    border-radius: 50% ;
+    height: 300px;
+    float: right;
+    border: 5px solid white;
+}
