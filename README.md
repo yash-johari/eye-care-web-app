@@ -16,7 +16,7 @@ The **Eye Care Medical Web App** is a full-stack medical assistant platform that
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap, EJS  
+- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap, ReactJs, Material UI  
 - **Backend:** Node.js, Express.js  
 - **Database:** PostgreSQL  
 
