@@ -74,7 +74,7 @@ function EyeDoctors() {
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="h5" gutterBottom>
                     {doctor.name}
-                  </Typography>x
+                  </Typography>
                   <Typography variant="subtitle1" color="primary" gutterBottom>
                     {doctor.hospital}
                   </Typography>
