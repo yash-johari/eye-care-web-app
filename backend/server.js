@@ -1,7 +1,7 @@
-const express = require('express');
-const cors = require('cors');
-const { Pool } = require('pg');
-require('dotenv').config();
+const express = require("express");
+const cors = require("cors");
+const { Pool } = require("pg");
+require("dotenv").config();
 
 const app = express();
 app.use(cors());
@@ -12,17 +12,18 @@ const pool = new Pool({
   password: process.env.DB_PASSWORD,
   host: process.env.DB_HOST,
   port: process.env.DB_PORT,
-  database: process.env.DB_DATABASE
+  database: process.env.DB_DATABASE,
 });
 
 // API route to get all doctors
-app.get('/doctors', async (req, res) => {
+app.get("/doctors", async (req, res) => {
   try {
-    const doctors = await pool.query('SELECT * FROM doctors');
+    const doctors = await pool.query("SELECT * FROM doctors");
+    console.log("Data from database:", doctors.rows);
     res.json(doctors.rows);
   } catch (err) {
     console.error(err);
-    res.status(500).send('Server Error');
+    res.status(500).send("Server Error");
   }
 });
 
