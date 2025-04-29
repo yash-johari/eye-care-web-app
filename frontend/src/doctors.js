@@ -1,4 +1,6 @@
 import axios from "axios";
+const cors = require('cors');
+app.use(cors());
 
 export const fetchDoctors = async () => {
     try {
