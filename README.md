@@ -32,7 +32,7 @@ The **Eye Care Medical Web App** is a full-stack medical assistant platform that
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/eye-care-web-app.git
+git clone https://github.com/yash-johari/eye-care-web-app.git
 
 # Navigate into the project folder
 cd eye-care-web-app
@@ -42,12 +42,15 @@ npm install
 
 # Configure your PostgreSQL database:
 # - Create a database
-# - Create necessary tables (check schema.sql if available)
+# - Create necessary tables 
 # - Update credentials in database/connection.js
 
 # Run the server
-node app.js
+cd backend && node server.js
+
+# Run the frontend
+cd frontend && npm run dev
 
 # Open in your browser
-http://localhost:3000
+http://localhost:5173
 ```
