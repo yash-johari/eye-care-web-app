@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className="footer-text">
-      © 2025 Eye Care Web App
+      © 2025 EyeCare Plus
     </footer>
   );
 }
